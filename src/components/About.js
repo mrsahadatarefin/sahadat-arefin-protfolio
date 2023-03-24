@@ -12,7 +12,7 @@ const About = () => {
 
     
     <div name="about" className="w-full h-[700px]  bg-gradient-to-b from bg-gray-800 to to-black via-gray-800 text-white">
-      <div className="max-w-screen-lg mx-auto flex flex-col p-4 lg:pt-20 justify-center w-full h-full">
+      <div   data-aos="zoom-in" data-aos-duration="2000" className="max-w-screen-lg mx-auto flex flex-col p-4 lg:pt-20 justify-center w-full h-full">
         <div className="" >
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">About</p>
         </div>
