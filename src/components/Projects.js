@@ -2,11 +2,21 @@ import React from "react";
 import img1 from "../assets/project/dior-club.jpg";
 import img2 from "../assets/project/yacht-club.jpg";
 import img3 from "../assets/project/doctor.jpg";
+import img4 from "../assets/project/movix.PNG"
 
 const Projects = () => {
     const projects = [
         {
         id:1,
+        img:img4,
+        name:'Movix',
+        live:'https://movie-finder-sage.vercel.app/',
+        client:'https://github.com/mrsahadatarefin/MovieFinder',
+        server:'https://github.com/mrsahadatarefin/MovieFinder'
+
+    },
+        {
+        id:4,
         img:img1,
         name:'Dior club',
         live:'https://dior-clud.web.app/',
